@@ -1,0 +1,185 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.main-manu ul{
+  text-align: left;
+}
+.header{
+  padding:15px 0px;
+}
+  .main-manu ul li{
+    display: block;
+    transition: .2s;
+  }
+  .top{
+    display: none;
+  }
+  .main-manu {
+    background: #6165E2;
+    position: absolute;
+    width: 100%;
+    left:-100%;
+    top: 70px;
+    transition:.3s;
+}
+.show{
+  left:0%;
+}
+.main-manu ul li a {
+  padding: 12px 18px;
+
+}
+.main-manu ul li:hover {
+  background:#FF3F42;
+}
+.clickmanu{
+  position: absolute;
+  top:20px;
+  right:35px;
+  cursor: pointer;
+  display: block;
+}
+.header.sticky {
+  padding:15px 0px;
+
+}
+.about-pra p{
+  width:300px;
+  margin:auto;
+}
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+
+  .main-manu ul{
+    text-align: left;
+  }
+  .header{
+    padding:15px 0px;
+  }
+    .main-manu ul li{
+      display: block;
+      transition: .2s;
+    }
+    
+    .main-manu {
+      background: #6165E2;
+      position: absolute;
+      width: 100%;
+      left:-100%;
+      top: 70px;
+      transition:.3s;
+  }
+  .top{
+    display: none;
+  }
+  .show{
+    left:0%;
+  }
+  .main-manu ul li a {
+    padding: 12px 18px;
+  
+  }
+  .main-manu ul li:hover {
+    background:#FF3F42;
+  }
+  .clickmanu{
+    position: absolute;
+    top:20px;
+    right:35px;
+    cursor: pointer;
+    display: block;
+  }
+  .header.sticky {
+    padding:15px 0px;
+    transition: .3s;
+  
+  }
+  .about-pra p{
+    width:300px;
+    margin:auto;
+  }
+.slider-content h5{
+  font-size: 18px;
+}
+.slider-content h2{
+  font-size: 30px;
+
+}
+.slider-content p{
+  width:400px;
+  margin:auto;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.slider-area .owl-carousel .owl-nav button.owl-next{
+  right:40px; 
+}
+.slider-area .owl-carousel .owl-nav button.owl-prev{
+  left:40px; 
+}
+.about-left::after{
+display: none;
+}
+.about-left::before{
+  display: none;
+  }
+  .about-left{
+    text-align: center;
+}
+.sarvices-box h2 {
+  font-size: 22px;
+}
+.single-counter{
+  margin-bottom: 15px;
+}
+.contact-right{
+  margin-top: 40px;
+}
+
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
